@@ -21,6 +21,22 @@ A Python-based Binance Futures Testnet Trading Bot built with the Binance API.
 * Git
 * GitHub
 
+## Project Structure
+
+trading_bot/
+
+├── bot/
+│   ├── client.py
+│   ├── orders.py
+│   ├── validators.py
+│   ├── account.py
+│   ├── positions.py
+│   └── logging_config.py
+
+├── cli.py
+├── requirements.txt
+├── README.md
+
 ## Example Usage
 
 ```bash

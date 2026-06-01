@@ -31,7 +31,10 @@ python cli.py --symbol BTCUSDT --side BUY --type MARKET --quantity 0.001
 
 Priya Bariya
 
-Then run these commands in PowerShell:
+## Then run these commands in PowerShell:
+
 git add README.md
+
 git commit -m "Added project documentation"
+
 git push

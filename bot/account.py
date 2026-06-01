@@ -1,2 +1,4 @@
-get_balance()
-get_account_info()
+from bot.client import client
+
+def get_account_balance():
+    return client.futures_account_balance()

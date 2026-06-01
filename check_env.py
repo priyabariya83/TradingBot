@@ -3,5 +3,5 @@ import os
 
 load_dotenv()
 
-print("API_KEY:", os.getenv("API_KEY")[:10])
-print("API_SECRET:", os.getenv("API_SECRET")[:10])
+print("API_KEY loaded:", bool(os.getenv("API_KEY")))
+print("API_SECRET loaded:", bool(os.getenv("API_SECRET")))
